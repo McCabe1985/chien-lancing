@@ -1,0 +1,25 @@
+/*variables*/
+:root {
+    /*font families*/
+    --heading-font: 'Roboto Slab', serif;
+    --text-font: 'Roboto', sans-serif;
+    /*font weights*/
+    --emphasis-mega: 900;
+    --emphasis-chunky: 700;
+    --emphasis-fine: 300;
+    --emphasis-slght: 100;
+    /*site colors*/
+    --color-primary: hsl(0, 0%, 14%);
+    --color-secondary: hsl(0, 0%, 34%);
+    --color-tertiary: hsl(189, 100%, 50%);
+}
+/*styles*/
+.app-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    font-family: var(--text-font);
+    color: white;
+}

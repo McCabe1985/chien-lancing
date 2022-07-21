@@ -1,0 +1,57 @@
+/*Variables*/
+:root {
+    /*font families*/
+    --heading-font: 'Roboto Slab', serif;
+    --text-font: 'Roboto', sans-serif;
+    /*font weights*/
+    --emphasis-mega: 900;
+    --emphasis-chunky: 700;
+    --emphasis-fine: 300;
+    --emphasis-slght: 100;
+    /*site colors*/
+    --color-primary: hsl(0, 0%, 14%);
+    --color-secondary: hsl(0, 0%, 34%);
+    --color-tertiary: hsl(189, 100%, 50%);
+}
+/*styles*/
+.navbar-area {
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--color-primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.nav-logo {
+    height: 100%;
+}
+
+.hide-small {
+    display: none;
+}
+.nav-link {
+   font-size: 1.5rem;
+}
+li.nav-item {
+    padding-top: 0.5rem;
+}
+
+.hover-border:hover {
+    border-bottom: 0.01em solid white;
+}
+
+.shunt-right {
+    margin-left: 80rem;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="dog walking and pet care services. Our friendly, reliable and personal pet care services include dog walking, pet visits, and House Sitting Service">
+    <meta name="keywords" content="pet care services,dog walking services,care dog walking,pet care dog,dog walking,dog walking services lancing,lancing,sussex,pet,care,dog,pet care,dog walking service,pet feeding,pet visits,house sitting,exercise,local">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meyer styles rest-->
+    <link rel="stylesheet" href="./styles/meyer.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./styles/app-area.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/hamburger.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/testimonials.css">
+    <link rel="stylesheet" href="./styles/service-cards.css">
+    <link rel="stylesheet" href="./styles/contact-form.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/mediaQueries/1000px.css">
+    <link rel="stylesheet" href="./styles/mediaQueries/1500px.css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/f535f22f6c.js" crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="imae/png" href="./favicon.png">
+<title>Chien - The Best Pet Care in Lancing</title>
+</head>
+<body>
+    <main class="app-area">
+
+        <!--Navbar-->
+<nav class="navbar-area">
+    <ul class="navbar">
+        <li class="nav-item">
+            <a href="#home" class="nav-link"><img src="./img/chien.png" alt="Happy Hounds Logo" class="nav-logo"></a>
+        </li>
+        <li class="nav-item shunt-right hide-small">
+            <a href="#Services" class="nav-link hover-border">Services</a>
+        </li>
+        <li class="nav-item hide-small hover-border">
+            <a href="#Contact" class="nav-link">Contact us</a>
+        </li>
+        <li class="nav-item hamburger hide-big">
+            <button class="hamburger-button"><img src="./img/hamburgericon.png" alt="" class="hamburger-image"></button>
+        </li>
+
+    </ul>
+</nav>
+
+<!-- hamburger menu draft I hard code it at first so I have a better idea of how to write the JavaScript, 
+when it's done I will comment it out but leave it in the code for review-->
+
+<nav class="hamburger-nav-menu">
+    <!--<ul class="hamburger-navbar">
+        <li class="hamburger-item"><a href="#" class="hamburger-link">Services</a></li>
+        <li class="hamburger-item"><a href="#" class="hamburger-link">Contact us</a></li>
+    </ul>-->
+</nav>
+
+<!--Hero Section-->
+<header id="home" class="hero-area">
+        
+        <section class="hero-text-container">
+            
+            <small class="header-subtext">Because your best friend is worth it!</small>
+            <h1 class="header-heading">The best <span class="hero-emphasis">Pet care</span> <br> in <span class="hero-emphasis">Lancing!</span></h1>
+            <h2 class="header-subheading">Dog walking, Pet grooming and much more</h2>
+
+        </section>
+    
+        <video class="bg-video" autoplay muted loop >
+            <source src="./img/dogbg.mp4" type="video/mp4">
+            
+        </video>
+
+    <div class="hero-button-container">
+        <a href="#Contact" class="hero-button">
+            <p class="hero-button-text">Book a Free consultation!</p>   
+        </a>
+    </div>
+    
+</header>
+
+<!--Testimonials-->
+<article class="testimonials">
+    <ul class="testimonial-list">
+        <li class="testimonial-slides fade-in">
+            <p class="testimonial-text">
+            
+            </p>
+            <small class="testimonial-customer"></small>
+            <small class="testimonial-dog"></i></small>
+        </li>
+    </ul>
+    <div class="testimonialbg-one">
+        <img src="./img/tennis ball.png" alt="tennis ball" class="testimonial-image-one">
+    </div>
+    <div class="testimonialbg-two">
+        <img src="./img/dog8.png" alt="happy dog" class="testimonial-image-two">
+    </div>
+</article>
+
+
+<!--Services-->
+<section id="Services" class="services-area">
+
+    <div id="card-1" class="card-container">
+        
+    </div>
+    
+
+    <div id="card-2" class="card-container">
+        
+    </div>
+    
+    <div id="card-3" class="card-container">
+    
+    </div>
+        
+    <div id="card-4" class="card-container">
+    
+    </div>
+    
+</section>
+
+<!--Contact form-->
+<section id="Contact" class="contact-area">
+
+    
+
+<section class="form-area">
+
+    <form action="https://formsubmit.co/d22d0dcbe90ec242712a46d59ae16cc5" method="POST" class="contact-form">
+
+        <h2 class="contact-heading">Contact Us</h2>
+
+        <div class="form-section">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" id="name-input" name="name" class="form-input" required placeholder="John Doe">
+        </div>
+        <div class="form-section">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" id="form-input" name="email" class="form-input" required placeholder="j.doe@gmail.com">
+        </div>
+        <div class="form-section">
+            <label for="message" class="form-label">Enter your Message</label>
+            <textarea name="message" id="message-input" cols="40" rows="10" class="form-input" required></textarea>
+        </div>
+        <input type="hidden" name="_next" value="https://www.youtube.com/watch?v=xm3YgoEiEDc">
+        <div class="form-btn-section">
+            <button class="form-button" id="form-button" type="submit">SUBMIT</button>
+        </div>
+    </form>
+    
+    <div class="splash-img-container hide-small">
+        <img src="./img/happydog2.png" alt="Happy Dog" class="splash-img">
+    </div>
+</section>
+
+</section>
+
+
+    <!--footer-->
+    <footer class="footer-area">
+
+        <section class="links-section">
+
+            <section class="link-container site-map">
+                <h5 class="footer-heading site-map-heading">Sitemap</h5>
+                <ul class="footer-links-box">
+                <li class="footer-links sitemap-link">Home</li>
+                <li class="footer-links sitemap-link">Services</li>
+                <li class="footer-links sitemap-link">
+                    <a href="./about.html">About us</a>
+                </li>
+                </ul>
+            </section>
+
+            <section class="link-container social">
+                <h5 class="footer-heading social-media-links">Social Media</h5>
+                <ul class="footer-social-media">
+                    <li class="footer-links social-media-link"><a href="https://www.facebook.com/chienlancing"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="footer-links social-media-link"><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="footer-links social-media-link"><a href="https://uk.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </section>
+
+            <section class="link-container">
+                <h5 class="footer-heading charity-links">Charities</h5>
+                <ul class="footer-links-box">
+                        <li class="footer-links charity-link"><a href="https://www.rspca.org.uk/">RSPCA</a></li>
+                        <li class="footer-links charity-link"><a href="https://www.dogstrust.org.uk/">Dog's Trust</a></li>
+                        <li class="footer-links charity-link"><a href="https://www.wadars.co.uk/">Wadars</a></li>
+                        <li class="footer-links charity-link"><a href="https://www.bluecross.org.uk/">Blue Cross</a></li>
+                </ul>
+            </section>           
+
+        </section>
+
+        <section class="copyright-box">
+            <p class="copyright-text">
+
+            </p>
+        </section>
+
+    </footer>
+    </main>
+<!--JavaScript-->
+    <script src="./js/app.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <script src="./js/testimonials.js"></script>
+    <script src="./js/cardgenerator.js"></script>
+    <script src="./js/copyright.js"></script>
+</body>
+</html>

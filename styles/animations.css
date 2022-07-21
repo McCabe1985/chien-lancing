@@ -1,0 +1,196 @@
+ /*
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Testimonials animation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  */
+  .fade-in {
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+  }
+  .fade-out {
+    animation: fadeOut 1s ease 0s 1 normal forwards;
+  }
+  /*
+  fade in
+  */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  /*
+  fade out
+  */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  
+    100% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  }
+
+   /*
+  Animated Border For Testimonials
+  */
+  .testimonial-slides::before {
+    content: '';
+    position: absolute;
+    top:-0.125rem;
+    left: -0.125rem;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 0.2rem solid transparent;
+    animation: buildBorderTop 1.5s linear forwards;
+}
+
+@keyframes buildBorderTop {
+    0% {
+        width: 0;
+        height: 0;
+        border-top-color: hsl(240, 1%, 12%);
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        opacity: 10%
+    }
+    50% {
+        width: 100%;
+        height: 0;
+        border-top-color: hsl(240, 1%, 12%);
+        border-right-color: hsl(240, 1%, 12%);
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        opacity: 10%
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: hsl(240, 1%, 12%);
+        border-right-color: hsl(240, 1%, 12%);
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        opacity: 50%
+    }
+}
+
+.testimonial-slides::after {
+  content: '';
+  position: absolute;
+  top:-0.125rem;
+  left: -0.125rem;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 0.2rem solid transparent;
+  animation: buildBorderBottom 1.5s linear forwards;
+}
+
+@keyframes buildBorderBottom {
+  0% {
+      width: 0;
+      height: 0;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: bhsl(240, 1%, 12%);
+      opacity: 10%
+  }
+  50% {
+      width: 0;
+      height: 100%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: hsl(240, 1%, 12%);
+      border-left-color: hsl(240, 1%, 12%);
+      opacity: 10%
+  }
+  100% {
+      width: 100%;
+      height: 100%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: hsl(240, 1%, 12%);
+      border-left-color: hsl(240, 1%, 12%);
+      opacity: 50%
+  }
+}
+
+ /*
+  hamburger animations
+  */
+  /*
+  fade menu in
+  */
+  .menu-fade-in {
+    animation: menuFadeIn 500ms ease 0s 1 normal forwards;
+  }
+  
+  @keyframes menuFadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  /*
+  fade menu out
+  */
+  .menu-fade-out {
+    animation: menuFadeOut 150ms ease 0s 1 normal forwards;
+  }
+  
+  @keyframes menuFadeOut {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes translateY {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-0.5rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  /*
+submit button animation
+*/
+
+.form-button:hover {
+    animation: highlightAndJump 0.9s ease-in-out 0s normal forwards;
+}
+
+
+@keyframes highlightAndJump {
+  0% {
+    box-shadow: none;
+  }
+  50%{
+    box-shadow: 0 0 0.8rem 0 rgba(255,255,255,0.5);
+    box-shadow: 0 0 0.4rem 0 rgba(255,255,255,1);
+    transform: translate(0, -0.5rem);
+  }
+  100% {
+    box-shadow: none;
+    transform: translate(0,0);
+  }
+}

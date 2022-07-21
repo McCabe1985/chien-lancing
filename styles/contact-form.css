@@ -1,0 +1,91 @@
+/*Variables*/
+
+:root {
+    /*font families*/
+    --heading-font: 'Roboto Slab', serif;
+    --text-font: 'Roboto', sans-serif;
+    /*font weights*/
+    --emphasis-mega: 900;
+    --emphasis-chunky: 700;
+    --emphasis-fine: 300;
+    --emphasis-slght: 100;
+    /*site colors*/
+    --color-primary: hsl(0, 0%, 14%);
+    --color-secondary: hsl(0, 0%, 34%);
+    --color-tertiary: hsl(189, 100%, 50%);
+}
+
+/*styles*/
+.contact-area {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    min-height: 50rem;
+}
+.contact-heading {
+    color: white;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    font-weight: var(--emphasis-mega);
+}
+.form-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0rem;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.8);
+    background-color: var(--color-primary);
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0rem;
+}
+.form-label {
+    font-weight: var(--emphasis-chunky);
+    margin-bottom: 0.5rem;
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+.form-input, .form-input:active, .form-input:focus {
+    padding: 0.5rem;
+    color: white;
+    background-color: var(--color-primary);
+    border: 0.3rem solid rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    font-family: var(--text-font);
+    width: 90%;
+}
+
+.form-input:active, .form-input:focus {
+    box-shadow: 0 0 0.8rem 0 rgba(255,255,255,0.5);
+    box-shadow: 0 0 0.4rem 0 rgba(255,255,255,1);
+}
+.form-btn-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+}
+
+.form-button {
+    border: 0.3rem solid white;
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: var(--emphasis-mega);
+    font-size: 1rem;
+    transition-delay: 1s;
+    transition: ease-in-out;
+}
+
+

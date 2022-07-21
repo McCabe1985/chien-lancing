@@ -1,0 +1,122 @@
+/*Variables*/
+
+:root {
+    /*font families*/
+    --heading-font: 'Roboto Slab', serif;
+    --text-font: 'Roboto', sans-serif;
+    /*font weights*/
+    --emphasis-mega: 900;
+    --emphasis-chunky: 700;
+    --emphasis-fine: 300;
+    --emphasis-slght: 100;
+    /*site colors*/
+    --color-primary: hsl(0, 0%, 14%);
+    --color-secondary: hsl(0, 0%, 34%);
+    --color-tertiary: hsl(189, 100%, 50%);
+}
+
+/*styles*/
+
+@media (min-width: 1000px) {
+/*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+.navbar {
+    justify-content: space-evenly;
+}
+.nav-logo {
+    margin-right: 10rem;
+}
+.hamburger-image {
+    display: none;
+}
+
+.hide-small {
+    display: block;
+}
+/*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+.header-heading {
+    font-size: 5rem;
+}
+
+.header-subheading {
+    font-size: 1.5rem;
+}
+
+.header-subtext {
+    font-size: 1.2rem;
+}
+.hero-button {
+    font-size: 2rem;
+}
+
+/*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Testimonials >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-list {
+    width: 50%;
+}
+.testimonialbg-one {
+    display: block;
+}
+.testimonialbg-two {
+    display: block;
+}
+
+/*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< service cards >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+.services-area {
+    padding: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 40%;
+}
+
+
+/*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< contact form >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+.form-area {
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding-left: 10rem;
+}
+.splash-img-container {
+   width: 25%;
+}
+.splash-img {
+    width: 100%;
+}
+/*
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<< footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+.footer-area {
+    padding-top: 1rem;
+}
+.footer-heading {
+    font-size: 1.5rem;
+}
+
+.footer-links {
+    font-size: 1rem;
+}
+
+.social-media-link {
+    font-size: 1.5rem;
+}
+
+}
+

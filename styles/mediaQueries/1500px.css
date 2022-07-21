@@ -1,0 +1,35 @@
+/*Variables*/
+
+:root {
+    /*font families*/
+    --heading-font: 'Roboto Slab', serif;
+    --text-font: 'Roboto', sans-serif;
+    /*font weights*/
+    --emphasis-mega: 900;
+    --emphasis-chunky: 700;
+    --emphasis-fine: 300;
+    --emphasis-slght: 100;
+    /*site colors*/
+    --color-primary: hsl(0, 0%, 14%);
+    --color-secondary: hsl(0, 0%, 34%);
+    --color-tertiary: hsl(189, 100%, 50%);
+}
+
+/*styles*/
+
+@media (min-width: 1500px){
+
+    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Testimonials >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    .shunt-right {
+        margin-left: 60rem;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Testimonials >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    .testimonial-list {
+        width: 30%;
+    }
+    .testimonialbg-one {
+        top: 1rem;
+        left: 35rem;
+    }
+}

@@ -1,0 +1,61 @@
+/*Variables*/
+
+:root {
+    /*font families*/
+    --heading-font: 'Roboto Slab', serif;
+    --text-font: 'Roboto', sans-serif;
+    /*font weights*/
+    --emphasis-mega: 900;
+    --emphasis-chunky: 700;
+    --emphasis-fine: 300;
+    --emphasis-slght: 100;
+    /*site colors*/
+    --color-primary: hsl(0, 0%, 14%);
+    --color-secondary: hsl(0, 0%, 34%);
+    --color-tertiary: hsl(189, 100%, 50%);
+}
+
+/*styles*/
+
+.footer-area {
+    background-color: var(--color-primary);
+    width: 100%;
+    padding: 0.5rem;
+    border-top: 0.025rem solid rgba(255, 255, 255, 0.5);
+}
+
+.links-section {
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+.footer-heading {
+    font-size: 0.8rem;
+    font-weight: var(--emphasis-chunky);
+}
+
+.footer-links-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {
+    font-size: 0.7rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-link {
+    font-size: 1rem;
+}
+
+.copyright-box {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 1rem 1rem;
+}
